@@ -125,3 +125,25 @@
     font-size: 0.85rem;
     background: rgba(255, 255, 255, 0.22);
 }
+.image1 {
+  display: flex;             
+  justify-content: center;    
+  gap: 20px;                 
+}
+
+.image1 img {
+  width: 30%;                
+  height: auto;              
+  border-radius: 12px;       
+}
+.image1 img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.image1 img:hover {
+  transform: translateY(-10px) scale(1.05); /* Lifts and slightly enlarges */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds depth with a shadow */
+  filter: brightness(1.1);                  /* Subtle glow effect */
+}
+
