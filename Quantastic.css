@@ -12,9 +12,10 @@
     display: inline-block;
 }
 .nav1{
-  position: sticky;  /* Hybrid of relative and fixed */
-  top: 0;            /* The point where it begins sticking */
+  position: sticky;  
+  top: 0;            
   z-index: 1000;
+  background-color: #fff;
 }
 #u1{
     float: right;
@@ -142,8 +143,45 @@
 }
 
 .image1 img:hover {
-  transform: translateY(-10px) scale(1.05); /* Lifts and slightly enlarges */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds depth with a shadow */
-  filter: brightness(1.1);                  /* Subtle glow effect */
+  transform: translateY(-10px) scale(1.05); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  filter: brightness(1.1);                  
 }
-
+.b1 {
+  display: grid;
+  gap: 20px; 
+  max-width: 1200px;
+  margin: 10px auto;
+  grid-template-areas: 
+    "portrait intro intro"
+    "portrait detail links";
+  grid-template-columns: 1fr 1fr 0.5fr; 
+  grid-template-rows: auto auto;
+}
+.b1 {
+  margin-top: 10px; 
+  padding-bottom: 10px; 
+  border-top: 1px solid #eee; 
+}
+.site-footer {
+  background: #111;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+}
+#c2{
+    margin: 40px;
+}
+#last{
+    margin: 50px;
+    float: right;
+}
+#c2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #b71a1a;
+}
+#bio{
+    width: 50px;
+}
