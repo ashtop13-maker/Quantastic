@@ -42,7 +42,7 @@
   display: inline-block;
 }
 .join:hover {
-  transform: translateY(-4px);
+  transform: translateY(4px);
   box-shadow: 0 10px 20px rgba(216, 30, 30, 0.4); 
   background-color: #2563eb;    
 }
@@ -184,4 +184,71 @@
 }
 #bio{
     width: 50px;
+}
+.form-container {
+  max-width: 500px;
+  margin: 20px auto; /* Centers the form on the page */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Adds rounded corners */
+}
+
+/* Style the form groups for spacing */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style labels */
+label {
+  display: block; /* Makes labels appear above inputs */
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style input fields and textarea */
+input,
+input[type="email"],
+textarea {
+  width: 100%; /* Makes inputs take the full width of their container */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding/border are included in width calculation */
+  font-size: 1em;
+  resize: vertical; /* Allows vertical resizing of textarea */
+}
+
+/* Highlight inputs when they are in focus */
+input:focus,
+textarea:focus {
+  border-color: #555;
+  outline: none; /* Removes default browser outline */
+}
+
+/* Style the submit button */
+button {
+  background-color: #04AA6D; /* Green background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* Changes cursor to a hand pointer on hover */
+  font-size: 1em;
+  width: 100%;
+}
+
+/* Add a hover effect for the button */
+button:hover {
+  background-color: #45a049;
+}
+#intro h1{
+    color: aqua;
+    text-align: center;
+}
+#intro{
+    background-color: deeppink;
+    margin: 20px;
+    border-radius: 10px;
 }
