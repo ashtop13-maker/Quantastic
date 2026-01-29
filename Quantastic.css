@@ -207,39 +207,36 @@ label {
   color: #333;
 }
 
-/* Style input fields and textarea */
+
 input,
 input[type="email"],
 textarea {
-  width: 100%; /* Makes inputs take the full width of their container */
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Ensures padding/border are included in width calculation */
+  box-sizing: border-box; 
   font-size: 1em;
-  resize: vertical; /* Allows vertical resizing of textarea */
+  resize: vertical; 
 }
 
-/* Highlight inputs when they are in focus */
 input:focus,
 textarea:focus {
   border-color: #555;
-  outline: none; /* Removes default browser outline */
+  outline: none; 
 }
 
-/* Style the submit button */
 button {
-  background-color: #04AA6D; /* Green background */
+  background-color: #04AA6D; 
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer; /* Changes cursor to a hand pointer on hover */
+  cursor: pointer; 
   font-size: 1em;
   width: 100%;
 }
 
-/* Add a hover effect for the button */
 button:hover {
   background-color: #45a049;
 }
