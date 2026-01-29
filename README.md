@@ -3,7 +3,7 @@
 
  Photography Portolio Quantastic web is a website where you can get free pictures gifs and even videos at very high quality 
 
- ## Features
+## Features
 Easy navigation Clean layout High resolution images
 
 ## Technology 
