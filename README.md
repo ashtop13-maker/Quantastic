@@ -14,9 +14,9 @@ HTML
 CSS
 
 ## How to run the project 
-1.Clone repository
-2.Open the project folder cd Quantastics 
-3.Open index.html in your browser or use Live server in vscode for better experience
+-Clone repository
+-Open the project folder cd Quantastics 
+-Open index.html in your browser or use Live server in vscode for better experience
 
 ## CONTRIBUTIONS 
 Contributions are welcome. Feel free to download the repository and submit a pull request
